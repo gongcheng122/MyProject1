@@ -31,6 +31,14 @@ public class Main {
         }
         System.out.println(h);
 
+        int a = 1;
+        int b = 2;
+        int c;
+
+        c = a>b?a:b;
+
+        System.out.println("a = 1, b = 2, a>b?a:b" +  c );
+
     }
 }
 
