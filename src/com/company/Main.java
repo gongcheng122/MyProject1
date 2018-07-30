@@ -39,6 +39,14 @@ public class Main {
 
         System.out.println("a = 1, b = 2, a>b?a:b" +  c );
 
+        // A>B?A:B this can avoid the error sometimes
+        int A =1;
+        int B =0;
+        int C;
+
+        C = B!=0?A/B:A*B;
+        System.out.println(C);
+
     }
 }
 
