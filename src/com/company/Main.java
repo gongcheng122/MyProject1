@@ -52,14 +52,13 @@ public class Main {
         C = B!=0?A/B:A*B;
         System.out.println(C);
 
+        //C++ diff with ++C
+        int D;
+        D = C++;
+        System.out.println("C is 0, D=C++, D now is : "+D+"; C now is : "+C);
+
+        D = ++C;
+        System.out.println("D=C++, D now is : "+D+"; C now is : "+C);
+
     }
 }
-
-/*class A<z> {
-    int z;
-    int x = 15;
-    int y = 6;
-    z = x+y;
-
-
-}*/
