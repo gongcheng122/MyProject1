@@ -34,6 +34,7 @@ public class Main {
         while(h!=15){
             ++h;
         }
+        System.out.println(h);
 
         int a = 1;
         int b = 2;
